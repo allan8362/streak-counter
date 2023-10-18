@@ -11,6 +11,6 @@ jobs:
      - run: yarn install
      - run: yarn test
      - run: yarn build
-     - uses: JS-DevTools/npm-publish@v3
+     - uses: JS-DevTools/npm-publish@v2
        with:
          token: ${{ secrets.NPM_TOKEN }}
