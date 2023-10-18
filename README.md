@@ -14,6 +14,8 @@ npm install @allan8362/streak-counter
 
 ## Usage
 
+[![Edit streak-counter (ts-course) (forked)](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/streak-counter-ts-course-forked-47my8w?fontsize=14&hidenavigation=1&theme=dark)
+
 ```
 import {streakCounter} from '@allan8362/streak-counter'
 
