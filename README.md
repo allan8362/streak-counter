@@ -5,17 +5,17 @@ This is a basic streak counter - inspired by Duolingo - written in TypeScript an
 ## Install
 
 ```shell
-yarn add @jsjoeio/streak-counter
+yarn add @allan8362/streak-counter
 ```
 * or
 ```shell
-npm install @jsjoeio/streak-counter
+npm install @allan8362/streak-counter
 ```
 
 ## Usage
 
 ```
-import {streakCounter} from '@jsjoeio/streak-counter'
+import {streakCounter} from '@allan8362/streak-counter'
 
 const today = new Date()
 const streak = streakCounter(localStorage, today)
