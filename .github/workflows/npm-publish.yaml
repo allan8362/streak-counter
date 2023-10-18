@@ -4,14 +4,13 @@ jobs:
  publish:
    runs-on: ubuntu-latest
    steps:
-     - uses: actions/checkout@v1
-     - uses: actions/setup-node@v1
+     - uses: actions/checkout@v3
+     - uses: actions/setup-node@v3
        with:
-           node-version: '18'
+           node-version: '20'
      - run: yarn install
      - run: yarn test
      - run: yarn build
-     - uses: JS-DevTools/npm-publish@v1
-       with:
-         token: $
-         access: "public"
+     - uses: JS-DevTools/npm-publish@v3
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
